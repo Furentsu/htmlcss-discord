@@ -136,8 +136,12 @@ header {
     float: right;
 } 
 
-section .bg {
-    height: 500px;
+.bg {
+    height: 600px;
+}
+
+.bg.grey {
+    background-color: rgb(243, 242, 242);
 }
 
 main .container {
