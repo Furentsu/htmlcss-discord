@@ -53,20 +53,82 @@ header {
 }
 
 
-.login {
+#login {
     display: inline-block;
     width: 19.3%;
     text-align: right;
 }
 
-.login > a {
+#login > a {
     background-color: white;
     color: black;
-    padding: 5px;
+    padding: 8px;
     text-decoration: none;
     border-radius: 2em;
 }
 
+.header-text {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.header-text > h1 {
+    font-weight: 600;
+}
+
+.header-text > h1,
+.header-text > p {
+    padding: 25px 0;
+    color: white;
+    line-height: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px;
+    background-color: white;
+    border-radius: 2em;
+    margin: 0 10px;
+}
+
+.button > a {
+    text-decoration: none;
+}
+
+.button.white-button {
+    background-color: white;
+}
+
+.button.black-button {
+    background-color: black;
+}
+
+.button.white-button a {
+    color: black;
+}
+
+.button.white-button::before {
+    content: "\21AF";
+
+}
+
+.button.black-button a {
+    color: white;
+}
 
 
 
+/* .clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+} */
