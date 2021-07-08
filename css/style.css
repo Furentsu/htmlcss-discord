@@ -17,7 +17,7 @@ header {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -96,7 +96,7 @@ header {
 }
 
 .button > a,
-.button-centerd > a {
+.button-centered > a {
     text-decoration: none;
 }
 
